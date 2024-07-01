@@ -1,0 +1,208 @@
+/* 
+    E-Tech;
+*/
+
+/* css for all */
+*{
+    margin: 0 0 ;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.error{
+    color: red;
+}
+
+.container{
+    
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #0fb117;
+    text-decoration: none;
+}
+a:hover{
+    color: #3fe447;
+}
+
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5%;
+}
+
+.btn-primary{
+    background-color: #0fb117;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    color: white;
+    background-color: #3fe447;
+
+}
+
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+.float-container{
+    position: relative;
+    
+}
+.float-text{
+    position: absolute;
+    
+    left: 35%;
+}
+filedset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+.error{
+    padding: 2%;
+    color: red;
+
+}
+.success{
+    padding: 2%;
+    color: #0fb117;
+}
+
+/* css for navbar*/
+
+.logo{
+    
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 50px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* css for Secrch*/
+.search{
+    background-image: url(../images/bg.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10% 0;
+}
+
+.search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* css for Categories*/
+
+.categories{
+    padding: 4% 0;
+}
+.box-3{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+/* css for explore items */
+
+.explore{
+    background-color: #ececec;
+    padding: 4%, 0;
+}
+
+.explore-box{
+   
+    width: 43%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.explore-menu-img{
+    width: 20%;
+    float: left;
+}
+.explore-menu-img-a{
+    width: 22%;
+    float: left;
+}
+
+.explore-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.price{
+    font-size: 1.2rem;
+    margin: 2%, o;
+}
+
+.desc{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+/* css for social*/
+
+ .social ul{
+    list-style-type: none;
+}
+
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.size{
+    height: 10px;
+}
+
