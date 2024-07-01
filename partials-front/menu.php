@@ -34,9 +34,14 @@
                         <li>
                             <a href="<?php echo SITEURL; ?>items.php">Items</a>
                         </li>
+
+                        <li>
+                            <a href="<?php echo SITEURL; ?>user-dashboard.php">Dashboard</a>
+                        </li>
+
                         <li>
                             <a href="<?php echo SITEURL; ?>logout.php">Logout</a>
-                    </li>
+                        </li>
                     <?php else: ?>
                         <li>
                             <a href="<?php echo SITEURL; ?>register.php">Sign Up</a>

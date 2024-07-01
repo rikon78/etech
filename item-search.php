@@ -60,7 +60,8 @@
                             <?php echo $description; ?>
                         </p>
                         <br>
-                        <a href="#" class="btn btn-primary">Order Now</a>
+                        </p>
+                        <a href="<?php echo SITEURL; ?>order.php?item_id=<?php echo $id; ?>" class="btn btn-primary">Order Now</a>
                     </div>
                 </div>
                 <?php
