@@ -79,7 +79,7 @@
                         <tr>
                             <td><?php echo $sn++; ?></td>
                             <td><?php echo $title; ?></td>
-                            <td>$<?php echo $price; ?></td>
+                            <td>Rs.<?php echo $price; ?></td>
                             <td>
                                 <?php 
                                     // Check whether we have an image or not

@@ -90,7 +90,7 @@
 
                                 <div class="exploer-menu-desc">
                                     <h4><?php echo $title; ?></h4>
-                                    <p class="item-price">$<?php echo $price; ?></p>
+                                    <p class="item-price">Rs.<?php echo $price; ?></p>
                                     <p class="item-detail">
                                         <?php echo $description; ?>
                                     </p>

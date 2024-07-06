@@ -115,7 +115,7 @@ if(isset($_SESSION['order']))
 
                     <div class="explore-menu-desc">
                         <h4><?php echo $title; ?></h4>
-                        <p class="price">$<?php echo $price; ?></p>
+                        <p class="price">Rs.<?php echo $price; ?></p>
                         <p class="desc"><?php echo $description; ?></p>
                         <br>
                         <a href="<?php echo SITEURL; ?>order.php?item_id=<?php echo $id; ?>" class="btn btn-primary">Order Now</a>

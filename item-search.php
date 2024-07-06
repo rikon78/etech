@@ -55,7 +55,7 @@
 
                     <div class="explore-menu-desc">
                         <h4><?php echo $title; ?></h4>
-                        <p class="price">$<?php echo $price; ?></p>
+                        <p class="price">Rs.<?php echo $price; ?></p>
                         <p class="item-detail">
                             <?php echo $description; ?>
                         </p>

@@ -25,6 +25,10 @@ if(isset($_POST['submit'])) {
         $err['username'] = "Username must be alphanumeric and between 4 to 29 characters";
     }
 
+    if(empty($_POST['password'])) {
+        $err['password'] = "Enter Password";
+    }
+
     // Check if there are no errors
     if(empty($err)) {
         // Password encryption using password_hash()
@@ -93,6 +97,8 @@ if(isset($_POST['submit'])) {
                         <input type="text" name="username" placeholder="Your Username" value="<?php if(isset($username)) echo htmlspecialchars($username); ?>">
                     </td>
                 </tr>
+
+                <tr><td colspan="2"><span class="error"><?php if(isset($err['password'])) echo $err['password']; ?></span></td></tr>
                 <tr>
                     <td>Password:</td>
                     <td><input type="password" name="password" placeholder="Your Password"></td>

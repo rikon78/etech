@@ -142,7 +142,7 @@ if(isset($_POST['submit']))
         <h2 class="text-center text-white">Fill this form to confirm your order.</h2>
 
         <?php if(!empty($err)): ?>
-            <div class="error">
+            <div class="error text-center">
                 <?php foreach($err as $error): ?>
                     <p><?php echo $error; ?></p>
                 <?php endforeach; ?>
@@ -178,7 +178,7 @@ if(isset($_POST['submit']))
                     <input type="hidden" name="item" value="<?php echo $title; ?>">
                     <input type="hidden" name="price" value="<?php echo $price; ?>">
 
-                    <p class="item-price order-label">$<?php echo $price; ?></p>
+                    <p class="item-price order-label">Rs.<?php echo $price; ?></p>
 
                     <div class="order-label">Quantity</div>
                     <input type="number" name="qty" class="input-responsive" value="1">
